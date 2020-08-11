@@ -31,18 +31,17 @@
    
    <p> my favorite fruit is an apple then its a mango</p>
 
-   <script>
-      document.getElementById("fruit").style.backgroundColor = "#b9d9eb";
-   </script>
-     <script>       
+document.getElementById("home").style.backgroundColor = "#7adc7a";
+    <script>
       function changeColor() {
         var header = document.getElementById("header");
         var n = (Math.random() * 0xfffff * 1000000).toString(16);
         var newColor = '#' + n.slice(0, 6);
         header.style.backgroundColor = newColor;
       }
-
     </script>
+   
+      
     <script src="script.js">
     </script>
   </head>
