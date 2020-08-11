@@ -29,6 +29,15 @@
   <img class="pic" src="football.jpeg"></img>
    <img class="pic" src="basketball.jpg"></img>
    <p> I like to play football and basketball</p>
+
+<script>       
+      function changeColor() {
+        var header = document.getElementById("header");
+        var n = (Math.random() * 0xfffff * 1000000).toString(16);
+        var newColor = '#' + n.slice(0, 6);
+        header.style.backgroundColor = newColor;
+      }
+</script>
     <script>
       document.getElementById("sports").style.backgroundColor = "#b9d9eb";
     </script>
