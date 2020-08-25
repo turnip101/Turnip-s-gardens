@@ -25,3 +25,58 @@
    width: 250px;
   height: 250px;
 }
+#turnip{
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}
+.hungry {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+#target1 {
+  top: 75px;
+  left: 190px;
+}
+#target2 {
+  top: 110px;
+  left: 370px;
+}
+#target3 {
+  top: 50px;
+  left: 275px;
+}
+#target4 {
+  top: 90px;
+  left: 320px;
+}
+#target5 {
+  top: 150px;
+  left: 20px;
+}
+#target6 {
+  top: 250px;
+  left: 320px;
+}
+#target7 {
+  top: 10px;
+  left: 220px;
+}
+#target8 {
+  top: 250px;
+  left: 200px;
+}
+#target9 {
+  top: 5px;
+  left: 290px;
+}
+#target10 {
+  top: 30px;
+  left: 60px;
+}
